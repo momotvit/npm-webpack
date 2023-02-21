@@ -1,0 +1,29 @@
+{
+  "name": "npm-webpack",
+  "version": "1.0.0",
+  "description": "NPM basics",
+  "main": "index.js",
+  "scripts": {
+
+    "start": "node js/index.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/momotvit/npm-webpack.git"
+  },
+  "author": "momotvit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/momotvit/npm-webpack/issues"
+  },
+  "homepage": "https://github.com/momotvit/npm-webpack#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "joi": "^17.8.1",
+    "nanoid": "^4.0.1"
+  }
+}
+
+
+
