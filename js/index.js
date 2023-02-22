@@ -7,6 +7,11 @@ const express = require('express');
 
 const app = express();
 
-app.listen(3000, () => console.log('Example app listening on port 3'));
 
-console.log('Hello World!');
+app.use('*', (req,res) => {
+    console.log('had request from browser');
+    res.send(`<html><body><h1>Hello World</h1></body></html>`);
+
+})
+const listener = app.listen(3000, () => console.log(`Example app listening on port ${listener.address().port}!`));
+
