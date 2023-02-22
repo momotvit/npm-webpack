@@ -1,8 +1,3 @@
-
-
-// "test": "echo \"Error: no test specified\" && exit 1"
-
-
 const express = require('express');
 
 const app = express();
